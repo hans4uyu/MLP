@@ -1,14 +1,16 @@
-# MLP Implementation
+# CNN Implementation
 
-Proyek ini mengimplementasikan **Multilayer Perceptron (MLP)** untuk klasifikasi data tabular.
+Proyek ini mengimplementasikan **Convolutional Neural Network (CNN)** untuk klasifikasi gambar menggunakan TensorFlow/Keras.
 
 ## 🚀 Fitur
-- Preprocessing dataset tabular (normalisasi, encoding).
-- Membangun dan melatih model MLP dengan TensorFlow.
-- Evaluasi performa menggunakan metrik akurasi.
-- Perbandingan hasil dengan model baseline sederhana.
+- Preprocessing dataset gambar (normalisasi, augmentasi).
+- Membangun arsitektur CNN dari awal dengan TensorFlow/Keras.
+- Training dan evaluasi model pada dataset benchmark.
+- Perbandingan performa CNN dengan model baseline sederhana.
+- Visualisasi hasil training (akurasi dan loss).
 
 ## 🛠️ Teknologi
 - Python 3.x
 - TensorFlow/Keras
-- NumPy, Pandas, Matplotlib
+- NumPy, Pandas
+- Matplotlib
